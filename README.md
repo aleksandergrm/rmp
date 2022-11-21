@@ -6,4 +6,13 @@ Predmet, *Računska mehanika v pomorstvu* je izbirni predmet na 2. stopnji pomor
 
 ***Metoda končnih volumnov***: Tukaj se študentje spoznajo z metodo končnih volumnov (Finite Volume Method - **FVM**) za izračun pojavov v mehaniki tekočin. Prikaže se uporaba [OpenFOAM](https://www.openfoam.org) okolja za uporabo FVM v realnih primerih.
 
-***Metoda končnih elementrov***: Tukaj se študentje spoznajo z metodo končnih elementov (Finite Element Method - **FEM**) za izračun pojavov v mehaniki trdnin. Prikaže se uporaba [Fenics Project](https://fenicsproject.org/) okolja za uporabo FEM v realnih primerih. 
+***Metoda končnih elementrov***: Tukaj se študentje spoznajo z metodo končnih elementov (Finite Element Method - **FEM**) za izračun pojavov v mehaniki trdnin. Prikaže se uporaba [Fenics Project](https://fenicsproject.org/) okolja za uporabo FEM v realnih primerih.
+
+<hr>
+
+Struktura repozitorija:
+
+- *Fenics*: vsi programi vezani na FEM izračun za trdnine s pomočjo Fenics projekta
+- *OpenFOAM*: vsi programi vezani na FVM izračun za tekočine s pomočjo OpenFOAM projekta
+- *GMSH*: vsi testni programi za izdelavo računske mreže
+- *Python*: vsi podporni programi, ki jih uporabimo med predavanji in vajami
